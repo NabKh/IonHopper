@@ -1,12 +1,12 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Nabkh/IonHopper/main/assets/logo.svg" width="180" height="180" alt="IonHopper"/>
+  <img src="https://raw.githubusercontent.com/Nabkh/IonHopper/main/assets/logo.svg" alt="IonHopper" width="180" height="180"/>
 
-  # IonHopper
+  <h1>IonHopper</h1>
 
   A Python framework implementing Basin Hopping Monte Carlo algorithm coupled with VASP for studying ion insertion in materials.
 
-  ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-  ![Python](https://img.shields.io/badge/python-3.8+-blue.svg)
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/release/python-380/)
 </div>
 
 ---
