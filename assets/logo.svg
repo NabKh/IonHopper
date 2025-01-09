@@ -1,68 +1,29 @@
 <svg viewBox="0 0 200 200">
-  <!-- Refined gradients and effects -->
+  <!-- Modern gradient background -->
   <defs>
-    <!-- Subtle background gradient -->
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#f8faff;stop-opacity:1"/>
-      <stop offset="100%" style="stop-color:#f0f7ff;stop-opacity:1"/>
-    </linearGradient>
-    
-    <!-- Soft glow for ions -->
-    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur in="SourceGraphic" stdDeviation="1"/>
-      <feColorMatrix type="matrix" values="1 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.3 0"/>
-      <feMerge>
-        <feMergeNode/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-    
-    <!-- Gradient for energy landscape -->
-    <linearGradient id="curve" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#2c3e50"/>
-      <stop offset="50%" style="stop-color:#34495e"/>
-      <stop offset="100%" style="stop-color:#2c3e50"/>
+      <stop offset="0%" style="stop-color:#4a90e2;stop-opacity:0.05"/>
+      <stop offset="100%" style="stop-color:#50e3c2;stop-opacity:0.05"/>
     </linearGradient>
   </defs>
   
-  <!-- Clean background -->
+  <!-- Background -->
+  <rect width="200" height="200" fill="white"/>
   <rect width="200" height="200" fill="url(#bg)"/>
   
-  <!-- Energy landscape with smooth curve -->
-  <path d="M20,140 Q60,90 100,140 Q140,190 180,140" 
-        fill="none" 
-        stroke="url(#curve)" 
-        stroke-width="3.5"
-        stroke-linecap="round"
-        filter="url(#glow)"/>
+  <!-- Energy landscape curve -->
+  <path d="M30,140 Q70,100 100,140 Q130,180 170,140" 
+        fill="none" stroke="#34495e" stroke-width="3"
+        stroke-linecap="round"/>
   
-  <!-- Hopping ions with animation -->
-  <g filter="url(#glow)">
-    <circle cx="60" cy="90" r="6.5" fill="#e74c3c">
-      <animate attributeName="cy" 
-               values="90;95;90"
-               dur="2s"
-               repeatCount="indefinite"/>
-    </circle>
-    <circle cx="100" cy="140" r="6.5" fill="#e74c3c">
-      <animate attributeName="cy" 
-               values="140;135;140"
-               dur="2s"
-               repeatCount="indefinite"
-               begin="0.6s"/>
-    </circle>
-    <circle cx="140" cy="90" r="6.5" fill="#e74c3c">
-      <animate attributeName="cy" 
-               values="90;95;90"
-               dur="2s"
-               repeatCount="indefinite"
-               begin="1.2s"/>
-    </circle>
-  </g>
+  <!-- Static ions -->
+  <circle cx="70" cy="100" r="7" fill="#e74c3c"/>
+  <circle cx="100" cy="140" r="7" fill="#e74c3c"/>
+  <circle cx="130" cy="100" r="7" fill="#e74c3c"/>
   
-  <!-- Modern typography with gradient -->
-  <text x="100" y="50" text-anchor="middle" font-family="Helvetica Neue" font-weight="600" font-size="26">
-    <tspan fill="#2c3e50" letter-spacing="1">Ion</tspan>
-    <tspan fill="#e74c3c" letter-spacing="1">Hopper</tspan>
+  <!-- Text -->
+  <text x="100" y="60" text-anchor="middle" font-family="Helvetica" font-weight="bold" font-size="28">
+    <tspan fill="#2c3e50">Ion</tspan>
+    <tspan fill="#e74c3c">Hopper</tspan>
   </text>
 </svg>
