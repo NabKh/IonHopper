@@ -1,0 +1,17 @@
+# examples/basic/config.yaml
+potcar_path: "/opt/vasp/potpaw_PBE"
+structure_file: "POSCAR"
+mobile_element: "Li"
+base_sites: 4
+kspacing: 0.2
+
+incar:
+  ISTART: 0
+  ICHARG: 2
+  ISMEAR: 0
+  SIGMA: 0.02
+  ENCUT: 500
+  EDIFF: 1.0E-6
+  EDIFFG: -1.0E-2
+  NSW: 50
+  IBRION: 2

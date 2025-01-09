@@ -1,0 +1,27 @@
+# VASP BHMC Configuration
+potcar_path: "/path/to/vasp/potcar"  # Path to POTCAR files directory
+structure_file: "POSCAR"             # Initial structure filename
+mobile_element: "Na"                 # Mobile species (Na or Li)
+base_sites: 5                        # Number of fixed sites
+kspacing: 0.2                        # K-point spacing in Å⁻¹
+
+# VASP INCAR settings
+incar:
+  ISTART: 0
+  ICHARG: 2
+  ISMEAR: 0
+  SIGMA: 0.02
+  ENCUT: 500
+  LREAL: true
+  ISYM: 0
+  NELMIN: 4
+  LCHARG: false
+  LWAVE: false
+  PREC: "LOW"
+  NELM: 40
+  EDIFF: 1.0E-6
+  EDIFFG: -1.0E-2
+  NSW: 50
+  IBRION: 2
+  ISIF: 2
+  LVDW: true
