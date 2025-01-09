@@ -1,5 +1,5 @@
 <div align="center">
-  <img src=""https://raw.githubusercontent.com/Nabkh/IonHopper/assets/logo.svg" alt="IonHopper" width="180" height="180"/>
+  <img src="https://raw.githubusercontent.com/Nabkh/IonHopper/main/assets/logo.svg" alt="IonHopper" width="180" height="180"/>
 
   <h1>IonHopper</h1>
 
