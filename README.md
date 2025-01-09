@@ -1,6 +1,6 @@
 <div align="center">
   <br/>
-<img src="https://raw.githubusercontent.com/Nabkh/IonHopper/main/assets/logo.png" alt="IonHopper" width="180" height="180"/>
+<img src="https://raw.githubusercontent.com/Nabkh/IonHopper/main/assets/logo-01.png" alt="IonHopper" width="180" height="180"/>
 
   # IonHopper
   
