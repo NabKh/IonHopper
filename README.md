@@ -91,13 +91,6 @@ python -m ionhopper.setup.prepare_calculation
 python -m ionhopper.workflow.run_compositions --compositions 0.25 0.5 0.75 1.0
 ```
 
-## Documentation
-
-- [Installation Guide](docs/installation.md)
-- [Tutorial](docs/tutorial.md)
-- [API Reference](docs/api)
-- [Examples](examples/)
-
 ## Citation
 
 If you use this code in your research, please cite:
