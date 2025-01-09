@@ -1,9 +1,29 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Nabkh/IonHopper/main/assets/logo.svg" alt="IonHopper" width="180" height="180"/>
-
+  <svg viewBox="0 0 200 200">
+    <!-- Modern gradient background -->
+    <defs>
+      <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" style="stop-color:#4a90e2;stop-opacity:0.05" />
+        <stop offset="100%" style="stop-color:#50e3c2;stop-opacity:0.05" />
+      </linearGradient>
+    </defs>
+    <!-- Background -->
+    <rect width="200" height="200" fill="white" />
+    <rect width="200" height="200" fill="url(#bg)" />
+    <!-- Energy landscape curve -->
+    <path d="M30,140 Q70,100 100,140 Q130,180 170,140" fill="none" stroke="#34495e" stroke-width="3" stroke-linecap="round" />
+    <!-- Static ions -->
+    <circle cx="70" cy="100" r="7" fill="#e74c3c" />
+    <circle cx="100" cy="140" r="7" fill="#e74c3c" />
+    <circle cx="130" cy="100" r="7" fill="#e74c3c" />
+    <!-- Text -->
+    <text x="100" y="60" text-anchor="middle" font-family="Helvetica" font-weight="bold" font-size="28">
+      <tspan fill="#2c3e50">Ion</tspan>
+      <tspan fill="#e74c3c">Hopper</tspan>
+    </text>
+  </svg>
   <h1>IonHopper</h1>
-
-  A Python framework implementing Basin Hopping Monte Carlo algorithm coupled with VASP for studying ion insertion in materials.
+  <p>A Python framework implementing Basin Hopping Monte Carlo algorithm coupled with VASP for studying ion insertion in materials.</p>
 
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/release/python-380/)
